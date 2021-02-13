@@ -1,3 +1,6 @@
+.wrapper-cards {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
 div[class] {
     border: 1px solid gray;
 }
