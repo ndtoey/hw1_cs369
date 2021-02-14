@@ -1,9 +1,20 @@
 .wrapper-cards {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
-div[class] {
-    border: 1px solid gray;
+/*.card-component__image{
+    padding: 5%;
+    box-sizing: border-box;
+    position: relative;
 }
+.card {
+    top: 10px;
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+}*/
+/*div[class] {
+    border: 1px solid gray;
+}*/
 .cards-component>div:nth-child(odd) {
     background-color: lightgray;
 }
