@@ -1,7 +1,10 @@
 .wrapper-cards {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
-/*.card-component__image{
+.card-component__image{
     padding: 5%;
     box-sizing: border-box;
     position: relative;
@@ -10,8 +13,9 @@
     top: 10px;
     width: 50%;
     height: 50%;
-    box-sizing: border-box;
-}*/
+    position: relative;
+    /*box-sizing: border-box;*/
+}
 /*div[class] {
     border: 1px solid gray;
 }*/
