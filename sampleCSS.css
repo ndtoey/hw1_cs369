@@ -3,23 +3,42 @@
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+    background-color: antiquewhite;
+}
+.most-popular-side-bar-component{
+    margin-top: 20px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: darkgoldenrod;
+}
+a:hover{
+    color: gray !important;
+}
+img {
+    max-width: 100%;
+}
+ul,li {
+    list-style-type: none;
 }
 .card-component__image{
     padding: 5%;
     box-sizing: border-box;
     position: relative;
+    justify-content: center;
+    align-content: center;
 }
 .card {
     top: 10px;
-    width: 50%;
-    height: 50%;
-    position: relative;
-    /*box-sizing: border-box;*/
+    position: absolute;
+    box-sizing: border-box;
+    float: inline-start;
+    justify-content: center;
+    align-content : center;
 }
-/*div[class] {
-    border: 1px solid gray;
-}*/
-.cards-component>div:nth-child(odd) {
+/*.cards-component>div:nth-child(odd) {
     background-color: lightgray;
 }
 .cards-component>div:nth-child(even) {
@@ -27,4 +46,4 @@
 }
 .fas {
     color: red;
-}
+}*/
