@@ -8,36 +8,47 @@
 .most-popular-side-bar-component{
     margin-top: 20px;
 }
-a:link{
-    color: black;
-}
-a:visited{
-    color: darkgoldenrod;
-}
-a:hover{
-    color: gray !important;
-}
 img {
     max-width: 100%;
 }
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+a:hover{
+    color: gray !important;
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+  }
 ul {
     padding-left: 0px !important;
 }
 ul,li {
     list-style-type: none;
 }
-.card-component__image{
-    padding: 5%;
-    box-sizing: border-box;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-}
 .card {
     top: 10px;
     float: inline-start;
     justify-content: center;
     align-content : center;
+}
+.card-component__image{
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+@media only screen and (max-width: 900px) {
+    img {
+        max-width: 100%;
+    }
 }
 /*.cards-component>div:nth-child(odd) {
     background-color: lightgray;
