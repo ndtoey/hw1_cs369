@@ -37,6 +37,7 @@ a:active {
   }
 ul {
     padding-left: 0px !important;
+    margin-bottom: 0% !important;
 }
 ul,li {
     list-style-type: none;
@@ -49,6 +50,7 @@ ul,li {
 }
 .card-body {
     box-sizing: border-box;
+    padding-top: 0% !important;
 }
 .card-component__image{
     padding: 30px;
@@ -68,6 +70,7 @@ ul,li {
 }
 /* appropriate to screen width less than 575px */
 @media only screen and (max-width: 575px) {
+    /*class of text in card of most popular*/
     .post-listing-list-item__description{
 
     }
