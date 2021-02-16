@@ -13,7 +13,7 @@ img {
 }
 a:link{
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:visited{
     color: darkgoldenrod;
@@ -38,6 +38,9 @@ ul,li {
     justify-content: center;
     align-content : center;
 }
+.card-body {
+    box-sizing: border-box;
+}
 .card-component__image{
     padding: 50px;
     box-sizing: border-box;
@@ -49,6 +52,12 @@ ul,li {
     img {
         max-width: 100%;
     }
+}
+.card-component,.card-group {
+    margin-bottom: 12px;
+}
+h4 {
+    margin-bottom: 0px;
 }
 /*.cards-component>div:nth-child(odd) {
     background-color: lightgray;
